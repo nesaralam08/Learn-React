@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.container{
+  height: 100dvh;
+  width: 100%;
+  position: relative;
+}
+.menu{
+  position: absolute;
+  left: 29%;
+  bottom: 60px;
+  padding: 10px;
+  min-width: 80px;
+  height: auto;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: row;
+  gap: 10px;
+}
+.btn{
+  padding: 5px 20px;
+  border-radius: 30px;
+  color: white;
+}
